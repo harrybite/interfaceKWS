@@ -176,7 +176,7 @@ export const WETH9_EXTENDED: { [chainId: number]: Token } = {
   ),
   [SupportedChainId.HOLESKY]: new Token(
     SupportedChainId.HOLESKY,
-    '0x94373a4919b3240d86ea41593d5eba789fef3848',
+    '0x9764C7d6D25dC15209D87C743EF320A9F260CD99',
     18,
     'WETH',
     'Wrapped Ether'

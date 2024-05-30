@@ -1,4 +1,4 @@
-import { FACTORY_ADDRESS as V2_FACTORY_ADDRESS } from '@uniswap/v2-sdk'
+import { FACTORY_ADDRESS as V2_FACTORY_ADDRESS } from 'uniswa-v2-sdk-holesky'
 import { FACTORY_ADDRESS as V3_FACTORY_ADDRESS } from '@uniswap/v3-sdk'
 
 import { constructSameAddressMap } from '../utils/constructSameAddressMap'
@@ -14,10 +14,10 @@ export const MULTICALL_ADDRESS: AddressMap = {
   ]),
   [SupportedChainId.ARBITRUM_ONE]: '0xadF885960B47eA2CD9B55E6DAc6B42b7Cb2806dB',
   [SupportedChainId.ARBITRUM_RINKEBY]: '0xa501c031958F579dB7676fF1CE78AD305794d579',
-  [SupportedChainId.HOLESKY]: '0xa501c031958F579dB7676fF1CE78AD305794d579',
+  [SupportedChainId.HOLESKY]: '0x085d098EA70074db3920EbC27ef9A043A84777eE',
 }
 export const V2_FACTORY_ADDRESSES: AddressMap = constructSameAddressMap(V2_FACTORY_ADDRESS)
-export const V2_ROUTER_ADDRESS: AddressMap = constructSameAddressMap('0x7a250d5630B4cF539739dF2C5dAcb4c659F2488D')
+export const V2_ROUTER_ADDRESS: AddressMap = constructSameAddressMap('0x04D98C12a830d58F337F25c6c8a00a5dAEdE28B4')
 
 /**
  * The oldest V0 governance address
@@ -76,11 +76,12 @@ export const ENS_REGISTRAR_ADDRESSES: AddressMap = {
 export const SOCKS_CONTROLLER_ADDRESSES: AddressMap = {
   [SupportedChainId.MAINNET]: '0x65770b5283117639760beA3F867b69b3697a91dd',
 }
-export const SWAP_ROUTER_ADDRESSES: AddressMap = constructSameAddressMap('0xE592427A0AEce92De3Edee1F18E0157C05861564', [
+export const SWAP_ROUTER_ADDRESSES: AddressMap = constructSameAddressMap('0x04D98C12a830d58F337F25c6c8a00a5dAEdE28B4', [
   SupportedChainId.OPTIMISM,
   SupportedChainId.OPTIMISTIC_KOVAN,
   SupportedChainId.ARBITRUM_ONE,
   SupportedChainId.ARBITRUM_RINKEBY,
+  SupportedChainId.HOLESKY
 ])
 export const V3_MIGRATOR_ADDRESSES: AddressMap = constructSameAddressMap('0xA5644E29708357803b5A882D272c41cC0dF92B34', [
   SupportedChainId.ARBITRUM_ONE,

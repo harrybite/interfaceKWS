@@ -1,5 +1,5 @@
 import { Trans } from '@lingui/macro'
-import { Pair } from '@uniswap/v2-sdk'
+import { Pair } from 'uniswa-v2-sdk-holesky'
 import { L2_CHAIN_IDS } from 'constants/chains'
 import JSBI from 'jsbi'
 import { useContext, useMemo } from 'react'

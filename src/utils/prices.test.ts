@@ -1,5 +1,5 @@
 import { CurrencyAmount, Percent, Token, TradeType } from '@uniswap/sdk-core'
-import { Pair, Route, Trade } from '@uniswap/v2-sdk'
+import { Pair, Route, Trade } from 'uniswa-v2-sdk-holesky'
 import JSBI from 'jsbi'
 
 import { computeRealizedLPFeeAmount, warningSeverity } from './prices'

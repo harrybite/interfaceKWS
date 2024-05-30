@@ -1,5 +1,5 @@
 import { Currency, CurrencyAmount, Percent, TradeType } from '@uniswap/sdk-core'
-import { Trade as V2Trade } from '@uniswap/v2-sdk'
+import { Trade as V2Trade } from 'uniswa-v2-sdk-holesky'
 import { Trade as V3Trade } from '@uniswap/v3-sdk'
 import { L2_CHAIN_IDS } from 'constants/chains'
 import JSBI from 'jsbi'

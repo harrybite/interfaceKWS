@@ -20276,6 +20276,17 @@ unist-util-visit@^1.1.0, unist-util-visit@^1.3.0:
   dependencies:
     unist-util-visit-parents "^2.0.0"
 
+uniswa-v2-sdk-holesky@^1.2.1:
+  version "1.2.1"
+  resolved "https://registry.yarnpkg.com/uniswa-v2-sdk-holesky/-/uniswa-v2-sdk-holesky-1.2.1.tgz#8ad5ecede5f909678ea9874e18e4e605d5f24dca"
+  integrity sha512-qaxndp2+ogZrkQIeBOUJGksCvBSq9bGIwoLzoEf2MdbRoTNZQ01ytnNdFnQzRxixsnSKElb3xf0L0HfyZArImw==
+  dependencies:
+    "@ethersproject/address" "^5.0.0"
+    "@ethersproject/solidity" "^5.0.0"
+    "@uniswap/sdk-core" "^3.0.0-alpha.3"
+    tiny-invariant "^1.1.0"
+    tiny-warning "^1.0.3"
+
 universalify@^0.1.0, universalify@^0.1.2:
   version "0.1.2"
   resolved "https://registry.yarnpkg.com/universalify/-/universalify-0.1.2.tgz#b646f69be3942dabcecc9d6639c80dc105efaa66"

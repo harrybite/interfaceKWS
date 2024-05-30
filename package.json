@@ -165,5 +165,7 @@
     ]
   },
   "license": "GPL-3.0-or-later",
-  "dependencies": {}
+  "dependencies": {
+    "uniswa-v2-sdk-holesky": "^1.2.1"
+  }
 }
