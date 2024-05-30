@@ -28,8 +28,11 @@ export const getTokenLogoURL = (
   chainId: SupportedChainId = SupportedChainId.MAINNET
 ): string | void => {
   const networkName = chainIdToNetworkName(chainId)
-  const networksWithUrls = [SupportedChainId.ARBITRUM_ONE, SupportedChainId.MAINNET, SupportedChainId.OPTIMISM]
+  const networksWithUrls = [SupportedChainId.ARBITRUM_ONE, SupportedChainId.MAINNET, SupportedChainId.OPTIMISM, SupportedChainId.HOLESKY]
   if (networksWithUrls.includes(chainId)) {
+    return `https://raw.githubusercontent.com/Uniswap/assets/master/blockchains/${networkName}/assets/${address}/logo.png`
+  }
+  else {
     return `https://raw.githubusercontent.com/Uniswap/assets/master/blockchains/${networkName}/assets/${address}/logo.png`
   }
 }

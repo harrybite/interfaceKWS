@@ -289,7 +289,7 @@ export default function Menu() {
                       </div>
                       <FileText opacity={0.6} size={16} />
                     </ToggleMenuItem>
-                    {showUNIClaimOption && (
+                    {/* {showUNIClaimOption && (
                       <UNIbutton
                         onClick={openClaimModal}
                         padding="8px 16px"
@@ -299,7 +299,7 @@ export default function Menu() {
                       >
                         <Trans>Claim UNI</Trans>
                       </UNIbutton>
-                    )}
+                    )} */}
                   </MenuFlyout>
                 )
             }

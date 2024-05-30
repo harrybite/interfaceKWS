@@ -38,6 +38,20 @@ export function getExplorerLink(chainId: number, data: string, type: ExplorerDat
     }
   }
 
+  if (chainId === SupportedChainId.HOLESKY) {
+    switch (type) {
+      case ExplorerDataType.TRANSACTION:
+        return `https://holesky.etherscan.io/tx/${data}`
+      case ExplorerDataType.ADDRESS:
+      case ExplorerDataType.TOKEN:
+        return `https://holesky.etherscan.io/address/${data}`
+      case ExplorerDataType.BLOCK:
+        return `https://holesky.etherscan.io/block/${data}`
+      default:
+        return `https://holesky.etherscan.io/`
+    }
+  }
+
   if (chainId === SupportedChainId.ARBITRUM_RINKEBY) {
     switch (type) {
       case ExplorerDataType.TRANSACTION:
