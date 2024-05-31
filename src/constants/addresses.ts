@@ -17,7 +17,7 @@ export const MULTICALL_ADDRESS: AddressMap = {
   [SupportedChainId.HOLESKY]: '0x085d098EA70074db3920EbC27ef9A043A84777eE',
 }
 export const V2_FACTORY_ADDRESSES: AddressMap = constructSameAddressMap(V2_FACTORY_ADDRESS)
-export const V2_ROUTER_ADDRESS: AddressMap = constructSameAddressMap('0x04D98C12a830d58F337F25c6c8a00a5dAEdE28B4')
+export const V2_ROUTER_ADDRESS: AddressMap = constructSameAddressMap('0x6d0c63977df74412B33119928Ba3f1e46CB576f9')
 
 /**
  * The oldest V0 governance address
